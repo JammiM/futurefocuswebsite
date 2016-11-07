@@ -1,3 +1,22 @@
+/* ######### GENERAL ######### */
+
+ul {
+    list-style-type: none;
+}
+
+
+/* ##### HERO ####### */
+#hero h1{
+  color :   #006e53;
+  font-weight: bold;
+}
+
+
+/* ##### WHATWEDO ####### */
+#whatwedo {
+  
+}
+
 /* ######### aboutUs ######### */
 
 #aboutUs {
@@ -12,8 +31,12 @@
 }
 
 
+/* ##### SERVICES ####### */
 
 
+#services li {
+  font-size: 18px;
+}
 
 /* ######### FOOTER ######### */
 
