@@ -1,0 +1,26 @@
+/* ######### aboutUs ######### */
+
+#aboutUs {
+  background-color:   #006e53;
+  color:              white;
+  margin:             0px 0px 0px 0px;
+  padding:            20px;
+}
+
+#aboutUs p {
+  font-size: 18px;
+}
+
+
+
+
+
+/* ######### FOOTER ######### */
+
+footer {
+  color: white;
+}
+
+.social {
+ background-color:#2e2e2e;
+}
