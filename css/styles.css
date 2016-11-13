@@ -6,25 +6,21 @@ p {
   font-weight: bold;
 }
 
-
 h1 {
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
 }
 
-
 ul {
     list-style-type: none;
 }
-
 
 .simpleBox {
   border: 2px solid gray;
   border-radius: 5px;
   background-color:#006e53;
   color: #FFFFFF;
-/*  margin: 10px 10px 10px 10px; */
-  padding: -20px -20px -10px -20px;  
+  padding: -20px -20px -10px -20px;
 }
 
 /* ##### NAV ####### */
@@ -47,7 +43,6 @@ ul {
   transition: all 1.5s;
 }
 
-
 .navbar-default .navbar-nav>li>a:hover {
   color:#006e53;
   font-size: 18px;
@@ -55,28 +50,27 @@ ul {
   border-bottom: 3px solid #FF0000;
 }
 
-
-
 /* ##### HERO ####### */
+
 #hero {
   margin: 20px 10px;
-  color :   #006e53;
-
+  color : #006e53;
 }
 
 #hero img{
-  width: 100%;
+  border: 1px solid grey;
+  border-radius:4px;
 }
 
 .fa-mobile, .fa-fax, .fa-envelope {
   color: #006e53;
 }
 
-
 /* ##### WHATWEDO ####### */
 #whatwedo {
+  border-top: .1em solid #C5C5C5;
   background-color: #f8f8f8;
-  padding: 40px;
+  padding: 10px;
 }
 
 /* ######### aboutUs ######### */
@@ -88,19 +82,81 @@ ul {
   padding:            20px;
 }
 
-#aboutUs {
-}
-
-
 /* ##### SERVICES ####### */
 #services {
-  margin:20px;
-  
+  background-color:#f5f5f5;
+  font-family: 'Roboto Slab', serif;
 }
 
-#services li {
-  font-size: 18px;
+#courses {
+  border-top: .1em solid #C5C5C5;
 }
+
+
+.features {
+  border-top: .1em solid #C5C5C5;
+  font-family: 'Roboto Slab', serif;
+  padding: 20px;
+}
+
+
+.features h3 {
+  padding-top: 60px;
+  font-size: 40px;
+}
+
+.features ul {
+  padding-top: 60px;
+}
+
+.features li {
+  font-size: 20px;
+  margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ######### FOOTER ######### */
 
@@ -111,6 +167,3 @@ footer {
 .social {
  background-color:#2e2e2e;
 }
-
-
-
