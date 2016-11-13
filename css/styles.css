@@ -90,8 +90,9 @@ ul {
 
 #courses {
   border-top: .1em solid #C5C5C5;
+  background-color:   #006e53;
+  color: #fff;
 }
-
 
 .features {
   border-top: .1em solid #C5C5C5;
@@ -113,50 +114,6 @@ ul {
   font-size: 20px;
   margin: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ######### FOOTER ######### */
 
