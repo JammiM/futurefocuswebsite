@@ -113,12 +113,12 @@ ul {
 }
 
 .features ul {
-  padding-top: 60px;
+  padding-top: 0px;
 }
 
 .features li {
   font-size: 20px;
-  margin: 5px;
+  margin-right: 35px;
 }
 
 /* ######### FOOTER ######### */
