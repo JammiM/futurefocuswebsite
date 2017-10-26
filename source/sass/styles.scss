@@ -1,0 +1,162 @@
+/* ######### GENERAL ######### */
+
+p {
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  /* font-weight: bold;  */
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.simpleBox {
+  border: 2px solid gray;
+  border-radius: 5px;
+  background-color: #006e53;
+  color: #FFFFFF;
+  padding: -20px -20px -10px -20px;
+}
+
+/* ##### NAV ####### */
+
+.navbar-default {
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
+  font-family: 'Roboto Slab', serif;
+  .navbar-nav > li > a {
+    color: #006e53;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    transition: all 1.5s;
+    &:hover {
+      color: #006e53;
+      font-size: 18px;
+      font-weight: bold;
+      border-bottom: 3px solid #FF0000;
+    }
+  }
+}
+
+/* ##### HERO ####### */
+
+#hero {
+  margin: 20px 10px;
+  color: #006e53;
+  img {
+    border: 1px solid grey;
+    border-radius: 4px;
+  }
+}
+
+.fa-mobile, .fa-fax, .fa-envelope {
+  color: #006e53;
+}
+
+/* ##### WHATWEDO ####### */
+
+#whatwedo {
+  border-top: .1em solid #C5C5C5;
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+
+/* ######### aboutUs ######### */
+
+#aboutUs {
+  background-color: #006e53;
+  color: white;
+  margin: 0px 0px 0px 0px;
+  padding: 20px;
+}
+
+/* ##### SERVICES ####### */
+
+#services {
+  background-color: #f5f5f5;
+  font-family: 'Roboto Slab', serif;
+  ul li {
+    text-align: left;
+    i {
+      margin-right: 5px;
+      color: #FF0000;
+    }
+  }
+}
+
+#servBtn {
+  color: #006e53;
+  font-weight: bold;
+  background-color: #fff;
+  border: 2px solid #006e53;
+  &:hover {
+    color: #fff;
+    font-weight: normal;
+    background-color: #006e53;
+    border: 2px solid #fff;
+  }
+}
+
+/* #### COURSES ######## */
+
+#courses {
+  border-top: .1em solid #C5C5C5;
+  background-color: #006e53;
+  color: #fff;
+  h3 {
+    color: #fff;
+  }
+  ul li {
+    text-align: left;
+  }
+}
+
+#coursesBtn {
+  color: #006e53;
+  font-weight: bold;
+  background-color: #fff;
+  border: 2px solid #006e53;
+  &:hover {
+    color: #fff;
+    font-weight: normal;
+    background-color: #006e53;
+    border: 2px solid #fff;
+  }
+}
+
+.features {
+  border-top: .1em solid #C5C5C5;
+  font-family: 'Roboto Slab', serif;
+  padding: 40px 0px 40px 0px;
+  h3 {
+    font-size: 40px;
+  }
+  ul {
+    padding-top: 0px;
+  }
+  li {
+    font-size: 18px;
+    margin-right: 30px;
+    padding: 5px;
+  }
+}
+
+/* ######### FOOTER ######### */
+
+footer {
+  color: white;
+}
+
+.social {
+  background-color: #2e2e2e;
+}

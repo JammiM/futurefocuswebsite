@@ -1,0 +1,129 @@
+$darkGreen: #006e53;
+
+/* ######### GENERAL ######### */
+p {
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold; }
+
+ul {
+  list-style-type: none;
+}
+
+.simpleBox {
+  border: 2px solid gray;
+  border-radius: 5px;
+  background-color: $darkGreen;
+  color: #fff;
+  padding: -20px -20px -10px -20px; }
+
+/* ##### NAV ####### */
+.navbar-default {
+  background-color: #fff;
+  border-color: #fff;
+  font-family: 'Roboto Slab', serif; }
+  .navbar-default .navbar-nav > li > a {
+    color: $darkGreen;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    transition: all 1.5s; }
+    .navbar-default .navbar-nav > li > a:hover {
+      color: $darkGreen;
+      font-size: 18px;
+      font-weight: bold;
+      border-bottom: 3px solid #FF0000; }
+
+/* ##### HERO ####### */
+#hero {
+  margin: 20px 10px;
+  color: #006e53; }
+  #hero img {
+    border: 1px solid grey;
+    border-radius: 4px; }
+
+.fa-mobile, .fa-fax, .fa-envelope {
+  color: #006e53; }
+
+/* ##### WHATWEDO ####### */
+#whatwedo {
+  border-top: .1em solid #C5C5C5;
+  background-color: #f8f8f8;
+  padding: 10px; }
+
+/* ######### aboutUs ######### */
+#aboutUs {
+  background-color: #006e53;
+  color: white;
+  margin: 0px 0px 0px 0px;
+  padding: 20px; }
+
+/* ##### SERVICES ####### */
+#services {
+  background-color: #f5f5f5;
+  font-family: 'Roboto Slab', serif; }
+  #services ul li {
+    text-align: left; }
+    #services ul li i {
+      margin-right: 5px;
+      color: #FF0000; }
+
+#servBtn {
+  color: #006e53;
+  font-weight: bold;
+  background-color: #fff;
+  border: 2px solid #006e53; }
+  #servBtn:hover {
+    color: #fff;
+    font-weight: normal;
+    background-color: #006e53;
+    border: 2px solid #fff; }
+
+/* #### COURSES ######## */
+#courses {
+  border-top: .1em solid #C5C5C5;
+  background-color: #006e53;
+  color: #fff; }
+  #courses h3 {
+    color: #fff; }
+  #courses ul li {
+    text-align: left; }
+
+#coursesBtn {
+  color: #006e53;
+  font-weight: bold;
+  background-color: #fff;
+  border: 2px solid #006e53; }
+  #coursesBtn:hover {
+    color: #fff;
+    font-weight: normal;
+    background-color: #006e53;
+    border: 2px solid #fff; }
+
+.features {
+  border-top: .1em solid #C5C5C5;
+  font-family: 'Roboto Slab', serif;
+  padding: 40px 0px 40px 0px; }
+  .features h3 {
+    font-size: 40px; }
+  .features ul {
+    padding-top: 0px; }
+  .features li {
+    font-size: 18px;
+    margin-right: 30px;
+    padding: 5px; }
+
+/* ######### FOOTER ######### */
+footer {
+  color: white; }
+
+.social {
+  background-color: #2e2e2e; }
