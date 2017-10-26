@@ -1,0 +1,199 @@
+doctype html
+html(lang='en')
+  head
+    title  Hotel, Catering & Hospitality Recruitment Services
+    link(href='http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css', rel='stylesheet')
+    link(href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css', rel='stylesheet')
+    link(rel='stylesheet', type='text/css', href='css/styles.css')
+    link(href='https://fonts.googleapis.com/css?family=Roboto+Slab', rel='stylesheet')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+  body
+    header
+      nav.navbar.navbar-default
+        .container-fluid
+          .navbar-header
+            button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar-collapse-1', aria-expanded='false')
+              span.sr-only Toggle navigation
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            a.navbar-brand(href='#') Future Focus
+          #navbar-collapse-1.collapse.navbar-collapse
+            ul.nav.navbar-nav.navbar-right
+              li
+                a(href='#') Home
+              li
+                a(href='#') FAQ
+              li
+                a(href='#') Services
+              li
+                a(href='#') Courses
+              li.dropdown
+                a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                  | Dropdown 
+                  span.caret
+                ul.dropdown-menu
+                  li
+                    a(href='#') Action
+                  li
+                    a(href='#') Another action
+                  li
+                    a(href='#') Something else here
+                  li.divider(role='separator')
+                  li
+                    a(href='#') Separated link
+          // /.navbar-collapse
+        // /.container-fluid
+    section#hero
+      .container
+        .row
+          .col-sm-6
+            img(src='http://www.shannoncollegealumni.com/wp-content/uploads/2015/01/Future-Focus-Logo-300x138.jpg', alt='future focus logo')
+          // col
+          .col-sm-6.text-center
+            h1
+              | Hotel, Catering, Hospitality and Restaurant Jobs, Employment and Recruitment in Ireland
+            p
+              i.fa.fa-mobile(aria-hidden='true')
+              |  	 021 4311872 / 4311859
+            p
+              i.fa.fa-fax(aria-hidden='true')
+              |  021 4311874
+            p
+              i.fa.fa-envelope(aria-hidden='true')
+              |  	  info@futurefocus.ie
+          // col
+        // row
+      // container
+    // #hero
+    section#whatwedo
+      .container
+        .row
+          .col-md-12
+            p
+              | We recruit, train and consult for the industry with twenty years of knowledge of the industry's requirements in human resources.
+          // col
+        // row
+      // container
+    // #hero
+    section#aboutUs
+      .container
+        .row
+          .col-sm-12.text-center
+            p
+              | We cater for Hotels, Restaurants, Hospitals , Guesthouses, Bars, Catering Companies, Cafes, Leisure Centres, Heritage Centres and Fast-food outlets. Please click here for a more detailed view of our recruitment areas.
+            p
+              | We are based in Cork but operate a Nation-wide service, and indeed service some international outlets.
+          // col
+        // row
+      // container
+    // #aboutUs
+    section#services.features.text-center
+      .container
+        .row
+          .col-sm-12.col-md-7.col-sm-7
+            ul
+              li
+                i.fa.fa-check(aria-hidden='true')
+                |  Recruitment of all levels and grades of staff
+              li
+                i.fa.fa-check(aria-hidden='true')
+                |  Consultancy & Manpower Planning
+              li
+                i.fa.fa-check(aria-hidden='true')
+                |  Human Resource Management
+              li
+                i.fa.fa-check(aria-hidden='true')
+                |  In-service Training and Development
+              li
+                i.fa.fa-check(aria-hidden='true')
+                |  Implementation of quality audits and mystery guest reporting
+          // col
+          .col-sm-12.col-md-5.col-sm-5.text-center
+            i.fa.fa-users.fa-5x(aria-hidden='true')
+            h3 Our services include
+            button#servBtn.btn.btn-primary.btn-large Learn More
+          // col
+        // row
+      // container
+    // #services
+    section#courses.features
+      .container
+        .row.text-center
+          .col-md-6
+            i.fa.fa-graduation-cap.fa-5x(aria-hidden='true')
+            h3 We offer tailor-made courses
+            button#coursesBtn.btn.btn-primary.btn-large.bigBtn Learn More
+          .col-md-6
+            ul
+              li
+                i.fa.fa-check(aria-hidden='true')
+                | Customer Care
+              li
+                i.fa.fa-check(aria-hidden='true')
+                | Sales
+              li
+                i.fa.fa-check(aria-hidden='true')
+                | Quality Systems
+              li
+                i.fa.fa-check(aria-hidden='true')
+                | Manpower Planning
+              li
+                i.fa.fa-check(aria-hidden='true')
+                | Personnel Administration
+              li
+                i.fa.fa-check(aria-hidden='true')
+                | Harrassment/Bullying
+    section.social
+      footer
+        .container
+          .row
+            .col-md-4.col-sm-4.text-center
+              h3.section-title Follow us
+              p
+                | We may tweet or share on upcoming jobs,
+                br
+                |  be sure to follow us
+              ul.list-inline
+                li
+                  a(href='http://www.facebook.com', target='_blank')
+                    i.fa.fa-facebook.fa-2x
+                li
+                  a(href='http://www.twitter.com', target='_blank')
+                    i.fa.fa-twitter.fa-2x
+                li
+                  a(href='http://www.instagram.com', target='_blank')
+                    i.fa.fa-instagram.fa-2x
+                li
+                  a(href='mailto:')
+                    i.fa.fa-envelope-o.fa-2x
+            .col-md-4.col-sm-4.text-center
+              h3.section-title Opening times
+              h4 Monday - Thursday
+              |                           9:00 AM - 9:00 PM
+              // <hr>
+              h4 Friday - Sunday
+              |                           10:00 AM - 9:00 PM
+            .col-md-4.col-sm-4.text-center
+              h3.section-title Postal address
+              address
+                | Future Focus,
+                br
+                | 1 Dun Laoi,
+                br
+                |  Union Quay,
+                br
+                |  Cork,
+                br
+                |  Ireland
+          // row
+          .row
+            .col-md-12.text-center.foot-note
+              p © 2016  All Rights Reserved.
+          // row
+        // container
+    // social
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js')
+    script(src='js/script.js')
